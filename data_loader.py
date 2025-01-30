@@ -1,6 +1,7 @@
 import pandas as pd
+import os
 
-file_path = r"C:\Users\User\Documents\0. Project\Proyek Kecil\KKN PPM 93 - Sidomukti\df.csv"
+file_path = os.path.join(os.getcwd(), "df.csv")
 
 # Load data
 df = pd.read_csv(file_path)
