@@ -1,7 +1,8 @@
 import pandas as pd
 import os
 
-df = pd.read_csv('C:\Users\User\Documents\0. Project\Proyek Kecil\KKN PPM 93 - Sidomukti\df.csv')
+df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'df.csv'))
+
 # Load data
 
 # Cek NaN dan perbaiki format
