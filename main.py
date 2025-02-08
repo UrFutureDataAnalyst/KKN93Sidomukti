@@ -9,17 +9,17 @@ Homepage = st.Page("Halaman Utama/halaman_utama.py",
     default=True)
 
 Mahasiswa1 = st.Page(
-    "Daftar Dusun/Dusun I.py",
+    "daftar_dusun/dusun_i.py",
     title="Dusun I",
     icon=":material/person:",
 )
 Mahasiswa2 = st.Page(
-    "Daftar Dusun/Dusun II.py",
+    "daftar_dusun/dusun_ii.py",
     title="Dusun II",
     icon=":material/person:",
 )
 Mahasiswa3 = st.Page(
-    "Daftar Dusun/Dusun III.py",
+    "daftar_dusun/dusun_iii.py",
     title="Dusun III",
     icon=":material/person:",
 )
